@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1614870409 source:c:\users\arachno\desktop\lab\lab1\main.cpp
+	<iostream>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	<bitset>
+	<string>
+

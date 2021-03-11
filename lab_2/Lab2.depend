@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1615475250 source:c:\users\arachno\desktop\lab\lab2\main.cpp
+	<iostream>
+	<math.h>
+	<random>
+	<chrono>
+	<cassert>
+	<stdlib.h>
+	<ctime>
+
