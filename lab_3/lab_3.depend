@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1616080170 source:c:\users\arachno\desktop\lab\lab_3\main.cpp
+	<iostream>
+	<string>
+	<locale>
+	<clocale>
+	<iostream>
+	<fstream>
+	<string>
+	<regex>
+
