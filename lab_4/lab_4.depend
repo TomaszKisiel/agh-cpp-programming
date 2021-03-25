@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1616679568 source:c:\users\arachno\desktop\lab\lab_4\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<string>
+	<random>
+	<chrono>
+
