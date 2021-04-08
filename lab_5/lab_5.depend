@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1617894363 source:c:\users\arachno\desktop\lab\lab_5\main.cpp
+	<iostream>
+	<string>
+	<map>
+	<ctype.h>
+	<array>
+	<vector>
+	<fstream>
+	<algorithm>
+

@@ -1,0 +1,10 @@
+1.2.3.4 google.com
+1.2.3.5 facebook.com
+1.2.3.6 twitter.com
+1.2.3.7 youtube.com
+1.2.3.8 instagram.com
+1.2.3.9 tumbler.com
+1.2.3.10 reddit.com
+1.2.3.11 pinterest.com
+1.2.3.12 vkontakte.com
+1.2.3.13 ask.fm
