@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1619101878 source:c:\users\arachno\desktop\lab\lab_7\person.cpp
+	"person.hpp"
+
+1619101866 c:\users\arachno\desktop\lab\lab_7\person.hpp
+	<string>
+
+1619103649 source:c:\users\arachno\desktop\lab\lab_7\main.cpp
+	<iostream>
+	<vector>
+	<stdexcept>
+	<math.h>
+	"person.hpp"
+	"student.hpp"
+
+1619102690 c:\users\arachno\desktop\lab\lab_7\student.hpp
+	<string>
+	"person.hpp"
+
+1619102825 source:c:\users\arachno\desktop\lab\lab_7\student.cpp
+	"student.hpp"
+

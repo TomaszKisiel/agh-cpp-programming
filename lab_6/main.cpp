@@ -19,8 +19,6 @@ public:
 	bool operator == ( const Complex );
 	friend ostream& operator << ( ostream& out, const Complex& c );
 	friend istream& operator >> ( istream& in, Complex& c );
-	// wejscie, wyjscie, porownanie, przypisanie
-
 };
 
 Complex::Complex( float r = 0, float i = 0 ) {
