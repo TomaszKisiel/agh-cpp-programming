@@ -19,7 +19,7 @@ void Menu::printOptions(void) {
     cout << endl;
     cout << "\033[1;32m" << this->title << "\033[0m" << endl;
 
-    for ( int i = 0; i < this->options.size(); i++ ) {
+    for ( unsigned int i = 0; i < this->options.size(); i++ ) {
         cout << "  " << i + 1 << ". ";
         cout << this->options[i]->getTitle() << endl;
     }
@@ -34,4 +34,3 @@ void Menu::printHint(bool newline) {
         cout << endl;
     }
 }
-

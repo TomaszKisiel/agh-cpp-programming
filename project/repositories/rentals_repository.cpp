@@ -39,7 +39,7 @@ void RentalsRepository::readFromFile(void) {
 void RentalsRepository::writeToFile(void) {
     ofstream file;
     file.open ("storage/rentals.repo", ios_base::trunc | ios_base::out );
-    for ( int i=0; i < this->rentals.size(); i++ ) {
+    for ( unsigned int i=0; i < this->rentals.size(); i++ ) {
         file << this->rentals.at(i).serialize() << "\n";
     }
     file.close();
@@ -50,7 +50,7 @@ vector<Rental> RentalsRepository::getAll(void) {
 }
 
 Rental RentalsRepository::getByDvdId( int id ) {
-    for ( int i = 0; i < this->rentals.size(); i++ ) {
+    for ( unsigned int i = 0; i < this->rentals.size(); i++ ) {
         Rental rental = this->rentals.at( i );
 
         if ( rental.getDvdId() == id ) {
@@ -62,7 +62,7 @@ Rental RentalsRepository::getByDvdId( int id ) {
 }
 
 bool RentalsRepository::isDvdInRentals( int dvd_id ) {
-    for ( int i = 0; i < this->rentals.size(); i++ ) {
+    for ( unsigned int i = 0; i < this->rentals.size(); i++ ) {
         Rental rental = this->rentals.at( i );
 
         if ( rental.getDvdId() == dvd_id ) {
@@ -80,8 +80,6 @@ void RentalsRepository::add( Rental rental ) {
 
 bool RentalsRepository::remove( Rental rental ) {
     Rental to_remove = this->getByDvdId( rental.getDvdId() );
-
-//    this->rentals.erase( std::remove( rentals.begin(), rentals.end(), to_remove ), rentals.end() );
 
     this->rentals.erase( remove_if(
         this->rentals.begin(),

@@ -1,8 +1,8 @@
 #include "manager.hpp"
 
 Manager::Manager() {
-    DvdsRepository dvds_repository;
-    this->dvds_repository = dvds_repository;
+    // DvdsRepository dvds_repository;
+    // this->dvds_repository = dvds_repository;
 }
 
 Manager * Manager::instance = 0;

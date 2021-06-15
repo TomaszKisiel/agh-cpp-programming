@@ -7,11 +7,11 @@ Design and implement classes for a DVD rental.
 ### :pencil: Specification
 
 1. [x] Project must be made individually.
-2. [x] In the project it is necessary to create at least one class with 
-a construct and appropriate methods. It is also necessary to use 
+2. [x] In the project it is necessary to create at least one class with
+a construct and appropriate methods. It is also necessary to use
 at least one of the STL containers e.g. vector, map or other.
-3. [x] If it makes any sense for the particular project, the program 
-should also make use of class inheritance, interfaces, exception 
+3. [x] If it makes any sense for the particular project, the program
+should also make use of class inheritance, interfaces, exception
 handling, virtual functions and recurrence.
 4. [x] There should be at least minimal input values validation.
 For instance, when the program expects that a user enters a digit,
@@ -22,17 +22,27 @@ infinite loop when the wrong input is provided.
 5. [x] There is no need to create the graphical user interface.
 It is enough that the project runs in the terminal and text mode.
 6. [x] In the main menu, there should be an option that terminates the
-program. It should also be possible to return to the main menu 
+program. It should also be possible to return to the main menu
 from any submenu.
-7. [ ] The project can use external open source libraries, like for 
+7. [ ] The project can use external open source libraries, like for
 instance database server sqlite etc.
-8. [x] All changes made during the program execution should be saved 
+8. [x] All changes made during the program execution should be saved
 (e.g. in files) and restored upon the program startup.
-9. [ ] The project should be compiled with warnings set to level three.
+9. [x] The project should be compiled with warnings set to level three.
 The source code should be written in such away that there should be
 no warnings during the compilation. Only a few warnings are acceptable
 provided that they are difficult to remove.
-10. [ ] The source code should be well formatted and cleaned of all
+10. [x] The source code should be well formatted and cleaned of all
 unused code. There should be comments in the source code explaining
 the usage of all functions and classes. Most variables (except for
 loop indexes) should have the names that are meaningful.
+
+### :rabbit: Quickstart
+
+To start this project in main directory type:
+
+```
+cmake .
+make all
+./RentalDVD
+```

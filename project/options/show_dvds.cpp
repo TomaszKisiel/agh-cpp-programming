@@ -13,7 +13,7 @@ void ShowDvds::execute(void) {
     Menu dvd_menu("Which dvd you want to choose?", "Chose DVD: ");
 
     vector<Dvd> dvds = dvds_repository->getAll();
-    for ( int i = 0; i < dvds.size(); i++ ) {
+    for ( unsigned int i = 0; i < dvds.size(); i++ ) {
         dvd_menu.addOption( new DvdListItem( dvds.at(i)) );
     }
 

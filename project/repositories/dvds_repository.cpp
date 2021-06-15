@@ -49,7 +49,7 @@ vector<Dvd> DvdsRepository::getAll(void) {
 }
 
 Dvd DvdsRepository::getById( int id ) {
-    for ( int i = 0; i < this->dvds.size(); i++ ) {
+    for ( unsigned int i = 0; i < this->dvds.size(); i++ ) {
         if ( this->dvds.at(i).getId() == id ) {
             return this->dvds.at( i );
         }

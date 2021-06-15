@@ -1,2 +1,6 @@
 .idea
-a.out
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+RentalDVD
+Makefile
